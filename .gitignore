@@ -1,0 +1,31 @@
+# R 会话临时文件（勿提交）
+.Rhistory
+.RData
+.RDataTmp
+.Rproj.user
+.Ruserdata
+*.Rout
+*.Rproj
+
+# 系统/编辑器临时文件
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+*.tmp
+*.log
+__pycache__/
+
+# 数据文件（患者级数据不得进入本 repository）
+*.Rds
+*.rds
+*.gz
+*.RData
+data/
+*.csv.bak
+
+# 凭证/密钥（防御性）
+*.key
+*.pem
+.env
