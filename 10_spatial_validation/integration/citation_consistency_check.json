@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "file": "manuscript_blocks.md",
+      "verdict": "PASS",
+      "fails": [],
+      "warns": [],
+      "oks": [
+        "C2 core meta delta present and matches lock",
+        "C2 core meta p present and matches lock",
+        "C2 core CI lo present and matches lock",
+        "C2 core CI hi present and matches lock",
+        "C2 depth-adj mean present and matches lock",
+        "C2 depth-adj t present and matches lock",
+        "C2 depth-adj p present and matches lock",
+        "C2 pathology delta present and matches lock",
+        "C3 statistic correctly labelled (one-sample t-test, df=11)",
+        "C4 program correctly named 67-gene",
+        "C5 accession GSE208253 cited",
+        "C6 'biological depletion' present but correctly negated",
+        "C6 'biological depletion' present but correctly negated"
+      ]
+    },
+    {
+      "file": "figure_legend_s4.md",
+      "verdict": "PASS",
+      "fails": [],
+      "warns": [],
+      "oks": [
+        "C2 core meta delta present and matches lock",
+        "C2 core meta p present and matches lock",
+        "C2 core CI lo present and matches lock",
+        "C2 core CI hi present and matches lock",
+        "C2 depth-adj mean present and matches lock",
+        "C2 depth-adj p present and matches lock",
+        "C2 pathology delta present and matches lock",
+        "C3 statistic correctly labelled (one-sample t-test, df=11)",
+        "C4 program correctly named 67-gene",
+        "C5 accession GSE208253 cited"
+      ]
+    },
+    {
+      "file": "citation_strings.md",
+      "verdict": "PASS",
+      "fails": [],
+      "warns": [],
+      "oks": [
+        "C1 retired value 0.351 present but explicitly flagged as retired",
+        "C2 depth-adj p present and matches lock",
+        "C3 statistic correctly labelled (one-sample t-test, df=11)",
+        "C5 accession GSE208253 cited"
+      ]
+    },
+    {
+      "file": "GSE208253_integration_pack.html",
+      "verdict": "PASS",
+      "fails": [],
+      "warns": [],
+      "oks": [
+        "C1 retired value 0.351 present but explicitly flagged as retired",
+        "C1 retired value 0.3509 present but explicitly flagged as retired",
+        "C2 core meta delta present and matches lock",
+        "C2 core meta p present and matches lock",
+        "C2 core CI lo present and matches lock",
+        "C2 core CI hi present and matches lock",
+        "C2 depth-adj mean present and matches lock",
+        "C2 depth-adj t present and matches lock",
+        "C2 depth-adj p present and matches lock",
+        "C2 pathology delta present and matches lock",
+        "C3 statistic correctly labelled (one-sample t-test, df=11)",
+        "C4 program correctly named 67-gene",
+        "C5 accession GSE208253 cited",
+        "C6 'biological depletion' present but correctly negated",
+        "C6 'biological depletion' present but correctly negated",
+        "C6 'biological depletion' present but correctly negated"
+      ]
+    }
+  ],
+  "summary": {
+    "FAIL": 0,
+    "WARN": 0,
+    "PASS": 4
+  }
+}

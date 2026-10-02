@@ -1,9 +1,11 @@
 # HNSC Mitoxyperiosis — Reproducibility Repository
 
 > **Manuscript**: Cross-Cohort Characterization of Mitoxyperiosis-Related Transcriptional Programs in Head and Neck Squamous Cell Carcinoma
-> **Target journal**: BMC Medical Genomics
+> **Target journal**: Scientific Reports
 > **Status**: DATA LOCKED / SCIENTIFIC CONTENT FROZEN（2026-09-27）
-> **This repository contains the canonical analysis code underlying the locked manuscript results.** The repository was assembled without recomputing or modifying the frozen analyses; users may rerun the scripts after obtaining the required public datasets and configuring local data paths.
+> **Modules**: `01_cohort_qc` … `09_figures` cover the bulk/single-cell analyses; `10_spatial_validation` covers the orthogonal GSE208253 spatial validation (frozen 2026-10-02).
+
+**This repository contains the canonical analysis code underlying the locked manuscript results.** The repository was assembled without recomputing or modifying the frozen analyses; users may rerun the scripts after obtaining the required public datasets and configuring local data paths.
 
 ---
 

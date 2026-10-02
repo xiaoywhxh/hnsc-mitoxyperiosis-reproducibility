@@ -1,0 +1,38 @@
+{
+  "module": "GSE208253 spatial validation",
+  "status": "FROZEN / CLOSED (2026-10-02)",
+  "scope_of_this_pack": "manuscript / figure / supplement integration + citation consistency only",
+  "generator": "integration/build_integration.py",
+  "authoritative_numbers": {
+    "core_meta_delta_REML": -0.275446619301154,
+    "core_meta_ci": [
+      -0.337535507934783,
+      -0.213357730667525
+    ],
+    "core_meta_p": 3.46703529240636e-18,
+    "depth_adj_mean_delta": 0.03650386211467611,
+    "depth_adj_t": 0.9328904920277253,
+    "depth_adj_df": 11,
+    "depth_adj_p": 0.3709011672393894
+  },
+  "retired_values": {
+    "normal_approx_p_core_vs_nc": 0.3509,
+    "note": "audit provenance only; never cite as a result"
+  },
+  "lock_assertions_passed": true,
+  "sources": [
+    "effects/pathology_cross_sample_summary.tsv",
+    "effects/region_cross_sample_summary.tsv",
+    "moran/morans_I_by_sample.tsv",
+    "quality/gene_detection_by_sample.tsv",
+    "robustness/depth_adjusted_region_direction.tsv",
+    "robustness/robustness_direction_agreement.tsv",
+    "robustness/robustness_spearman.tsv"
+  ],
+  "outputs": [
+    "manuscript_blocks.md",
+    "figure_legend_s4.md",
+    "citation_strings.md",
+    "numeric_freeze_table.tsv"
+  ]
+}

@@ -1,0 +1,198 @@
+==============================================================================
+GSE208253 -- NUMERIC CONSISTENCY AUDIT (read-only / summary-only)
+==============================================================================
+
+[A] RECOMPUTED FROM RAW step1-step7 TSV  (source of truth)
+------------------------------------------------------------------------------
+  Moran's I: n samples computed                        12
+  Moran's I: n with I>0                                12
+  Moran's I: n with FDR<0.05                           12
+  Moran's I: min                                       0.0571
+  Moran's I: max                                       0.2304
+  Moran's I: median                                    0.126
+  Moran's I: s10 spdep cross-check identical           True
+  core_vs_nc: n samples with delta                     12
+  core_vs_nc: n delta>0                                0
+  core_vs_nc: n delta<0                                12
+  core_vs_nc: delta min                                -0.4648
+  core_vs_nc: delta max                                -0.0977
+  core_vs_nc: meta delta (REML)                        -0.2754
+  core_vs_nc: meta p                                   3.46704e-18
+  core_vs_nc: meta CI lo                               -0.3375
+  core_vs_nc: meta CI hi                               -0.2134
+  core_vs_nc: meta I2                                  77
+  core_vs_nc: sign test p                              0.000488281
+  core_vs_nc leave-s3-out: n                           11
+  core_vs_nc leave-s3-out: n delta>0                   0
+  core_vs_nc leave-s3-out: meta delta                  -0.2779
+  core_vs_nc leave-s3-out: meta p                      1.0572e-16
+  edge_vs_nc: n delta>0                                2
+  edge_vs_nc: n delta<0                                10
+  edge_vs_nc: sign test p                              0.0385742
+  edge_vs_nc: meta delta                               -0.1291
+  edge_vs_nc: meta p                                   0.000112141
+  edge_vs_nc: meta I2                                  91.9
+  transitory_vs_nc: n delta>0                          1
+  transitory_vs_nc: n delta<0                          11
+  transitory_vs_nc: sign test p                        0.00634766
+  transitory_vs_nc: meta delta                         -0.1975
+  transitory_vs_nc: meta p                             1.85396e-06
+  transitory_vs_nc: meta I2                            93.1
+  pathology SCC vs non-SCC: n delta>0                  2
+  pathology SCC vs non-SCC: n delta<0                  10
+  pathology: meta delta                                -0.1327
+  pathology: meta p                                    7.21627e-06
+  pathology: meta CI lo                                -0.1907
+  pathology: meta CI hi                                -0.0747
+  pathology: meta I2                                   91.4
+  pathology: sign test p                               0.0385742
+  pathology leave-s3-out: n delta>0                    2
+  pathology leave-s3-out: meta delta                   -0.1313
+  pathology leave-s3-out: meta p                       3.70196e-05
+  s9: n SCC spots                                      2494
+  s9: n non-SCC spots                                  831
+  s10: n SCC spots                                     2132
+  s10: n non-SCC spots                                 556
+  Spearman: n samples                                  12
+  Spearman: n negative                                 12
+  Spearman: mean                                       -0.2442
+  Spearman: min                                        -0.4958
+  Spearman: max                                        -0.0951
+  direction agreement: agree                           5
+  direction agreement: total                           48
+  direction agreement: pct                             10.4
+  depth-adj core_vs_nc: n                              12
+  depth-adj core_vs_nc: mean raw delta                 -0.2869
+  depth-adj core_vs_nc: mean adjusted delta            0.036504
+  depth-adj core_vs_nc: n adj delta>0                  8
+  depth-adj core_vs_nc: t statistic                    0.9329
+  depth-adj core_vs_nc: p (t-dist df=11, CORRECT)      0.370901
+  depth-adj core_vs_nc: p (normal-approx, WRONG)       0.350877
+  depth-adj edge_vs_nc: n                              12
+  depth-adj edge_vs_nc: mean raw delta                 -0.1374
+  depth-adj edge_vs_nc: mean adjusted delta            0.095442
+  depth-adj edge_vs_nc: n adj delta>0                  10
+  depth-adj edge_vs_nc: t statistic                    3.1196
+  depth-adj edge_vs_nc: p (t-dist df=11, CORRECT)      0.009756
+  depth-adj edge_vs_nc: p (normal-approx, WRONG)       0.001811
+  depth-adj transitory_vs_nc: n                        12
+  depth-adj transitory_vs_nc: mean raw delta           -0.2054
+  depth-adj transitory_vs_nc: mean adjusted delta      0.088451
+  depth-adj transitory_vs_nc: n adj delta>0            9
+  depth-adj transitory_vs_nc: t statistic              3.524
+  depth-adj transitory_vs_nc: p (t-dist df=11, CORRECT) 0.004765
+  depth-adj transitory_vs_nc: p (normal-approx, WRONG) 0.000425
+  total in-tissue spots                                26371
+  total annotated spots                                24399
+  per-sample in-tissue spot counts                     {'s1': 1185, 's2': 1836, 's3': 969, 's4': 2046, 's5': 1678, 's6': 3311, 's7': 2860, 's8': 2475, 's9': 3591, 's10': 2731, 's11': 2130, 's12': 1559}
+  s3 annotated spots                                   476
+  s3 in-tissue spots                                   969
+  n genes in detection table                           67
+  n genes mean detection <5%                           8
+  n genes mean detection <1%                           2
+  CASP5 mean detection pct                             0.49
+  GLS2 mean detection pct                              0.6
+
+[B] DOCUMENT-vs-TSV COMPARISON
+------------------------------------------------------------------------------
+  [MATCH   ] HTML depth-adj p uses correct t value (0.3709)
+             recomputed : 0.3709
+             in doc     : ['0.3709', '0.370']
+  [MATCH   ] HTML depth-adj p: legacy WRONG value 0.351 absent (ignoring fix-notes)
+             recomputed : absent
+             in doc     : []
+  [MATCH   ] MD depth-adj p uses correct t value (0.3709)
+             recomputed : 0.3709
+             in doc     : ['0.3709', '0.370']
+  [MATCH   ] MD depth-adj p: legacy WRONG value 0.351 absent (ignoring fix-notes)
+             recomputed : absent
+             in doc     : []
+  [MATCH   ] HTML core meta p = correct 3.5 x 10^-18 (not 10^-9)
+             recomputed : 3.5 x 10-18
+             in doc     : ['3.5 x 10-18']
+  [MATCH   ] HTML core meta p: legacy WRONG exponent 10^-9 absent (ignoring fix-notes)
+             recomputed : absent
+             in doc     : []
+  [MATCH   ] MD core meta p = correct 3.47e-18
+             recomputed : 3.47e-18
+             in doc     : ['3.47e-18']
+  [MATCH   ] MD core meta p: legacy WRONG 3.5e-9 absent (ignoring fix-notes)
+             recomputed : absent
+             in doc     : []
+  [MATCH   ] HTML edge_vs_nc meta p present & correct
+             recomputed : 1.121e-04
+             in doc     : ['1.1 x 10-4']
+  [MATCH   ] MD edge_vs_nc meta p present & correct
+             recomputed : 1.121e-04
+             in doc     : ['1.1e-4']
+  [MATCH   ] HTML transitory_vs_nc meta p present & correct
+             recomputed : 1.854e-06
+             in doc     : ['1.9 x 10-6']
+  [MATCH   ] MD transitory_vs_nc meta p present & correct
+             recomputed : 1.854e-06
+             in doc     : ['1.9e-6']
+  [MATCH   ] HTML pathology meta p present & correct
+             recomputed : 7.216e-06
+             in doc     : ['7.2 x 10-6']
+  [MATCH   ] MD pathology meta p present & correct
+             recomputed : 7.216e-06
+             in doc     : ['7.2e-6']
+  [MATCH   ] HTML core leave-s3 meta p present & correct
+             recomputed : 1.057e-16
+             in doc     : ['1.1 x 10-16', '1.1e-16']
+  [MATCH   ] MD core leave-s3 meta p present & correct
+             recomputed : 1.057e-16
+             in doc     : ['1.1e-16']
+  [MATCH   ] HTML pathology leave-s3 meta p present & correct
+             recomputed : 3.702e-05
+             in doc     : ['3.7 x 10-5']
+  [MATCH   ] MD pathology leave-s3 meta p present & correct
+             recomputed : 3.702e-05
+             in doc     : ['3.7e-5']
+  [MATCH   ] HTML wording: '真实的空间聚集' removed (conservative wording applied)
+             recomputed : absent
+             in doc     : []
+  [MATCH   ] HTML wording: 'reproducible positive spatial autocorrelation' present
+             recomputed : present
+             in doc     : ['reproducible positive spatial autocorrelation']
+  [MATCH   ] HTML spot-check: 12/12 I>0
+             recomputed : 12/12
+             in doc     : True
+  [MATCH   ] HTML spot-check: core delta range -0.465..-0.098
+             recomputed : -0.465
+             in doc     : True
+  [MATCH   ] HTML spot-check: I range 0.057-0.230
+             recomputed : 0.057
+             in doc     : True
+  [MATCH   ] HTML spot-check: meta delta -0.275
+             recomputed : -0.275
+             in doc     : True
+  [MATCH   ] HTML spot-check: pathology meta -0.133
+             recomputed : -0.133
+             in doc     : True
+  [MATCH   ] HTML spot-check: meanZ agreement 10.4%
+             recomputed : 10.4
+             in doc     : True
+  [MATCH   ] HTML spot-check: Spearman mean -0.244
+             recomputed : -0.244
+             in doc     : True
+  [MATCH   ] HTML spot-check: CASP5 0.49%
+             recomputed : 0.49
+             in doc     : True
+  [MATCH   ] HTML spot-check: GLS2 0.60%
+             recomputed : 0.60
+             in doc     : True
+
+==============================================================================
+VERDICT: PASS
+==============================================================================
+
+KEY FINDING -- the contested depth-adjusted core-vs-nc p:
+  statistic definition : one-sample t-test on the 12 per-sample
+                         depth-adjusted Cliff's deltas, df = 11
+  t                    : 0.9329
+  CORRECT p (t dist)   : 0.370901
+  WRONG   p (normal)   : 0.350877
+
+  => 0.371 == correct t-distribution p
+  => 0.351 == normal-approximation p (INCORRECT; must be retired)

@@ -1,0 +1,27 @@
+key	value	source_tsv
+moran_n_samples_positive	12/12	moran/morans_I_by_sample.tsv
+moran_n_fdr_lt_005	12/12	moran/morans_I_by_sample.tsv
+moran_I_min	0.0571	moran/morans_I_by_sample.tsv
+moran_I_max	0.2304	moran/morans_I_by_sample.tsv
+moran_I_median	0.1282	moran/morans_I_by_sample.tsv
+core_meta_delta_REML	-0.2754	effects/region_cross_sample_summary.tsv
+core_meta_ci_lo	-0.3375	effects/region_cross_sample_summary.tsv
+core_meta_ci_hi	-0.2134	effects/region_cross_sample_summary.tsv
+core_meta_p	3.47 × 10⁻¹⁸	effects/region_cross_sample_summary.tsv
+core_meta_I2_pct	77.0	effects/region_cross_sample_summary.tsv
+core_sign_test_p	4.88 × 10⁻⁴	effects/region_cross_sample_summary.tsv
+core_neg_samples	12/12	effects/region_cross_sample_summary.tsv
+depth_adj_mean_delta	0.0365	robustness/depth_adjusted_region_direction.tsv
+depth_adj_n_positive	8/12	robustness/depth_adjusted_region_direction.tsv
+depth_adj_t	0.9329	robustness/depth_adjusted_region_direction.tsv
+depth_adj_df	11	robustness/depth_adjusted_region_direction.tsv
+depth_adj_p	0.3709	robustness/depth_adjusted_region_direction.tsv
+depth_raw_mean_delta	-0.2869	robustness/depth_adjusted_region_direction.tsv
+path_meta_delta	-0.1327	effects/pathology_cross_sample_summary.tsv
+path_meta_p	7.22 × 10⁻⁶	effects/pathology_cross_sample_summary.tsv
+path_neg_samples	10/12	effects/pathology_cross_sample_summary.tsv
+meanZ_spearman_mean	-0.2442	robustness/robustness_spearman.tsv
+meanZ_spearman_neg	12/12	robustness/robustness_spearman.tsv
+direction_agreement	5/48	robustness/robustness_direction_agreement.tsv
+n_genes_lowdet_lt5pct	8/67	quality/gene_detection_by_sample.tsv
+DEPRECATED_normal_approx_p	0.3509	RETIRED -- audit provenance only, never cite

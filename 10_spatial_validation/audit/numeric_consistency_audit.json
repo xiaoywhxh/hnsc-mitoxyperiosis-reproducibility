@@ -1,0 +1,922 @@
+{
+  "verdict": "PASS",
+  "rows": [
+    {
+      "item": "Moran's I: n samples computed",
+      "recomputed": 12,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "Moran's I: n with I>0",
+      "recomputed": 12,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "Moran's I: n with FDR<0.05",
+      "recomputed": 12,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "Moran's I: min",
+      "recomputed": 0.0571,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "Moran's I: max",
+      "recomputed": 0.2304,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "Moran's I: median",
+      "recomputed": 0.126,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "Moran's I: s10 spdep cross-check identical",
+      "recomputed": true,
+      "in_document": null,
+      "status": "INFO",
+      "note": "manual=0.128172079 spdep=0.128172079425064"
+    },
+    {
+      "item": "core_vs_nc: n samples with delta",
+      "recomputed": 12,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "core_vs_nc: n delta>0",
+      "recomputed": 0,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "core_vs_nc: n delta<0",
+      "recomputed": 12,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "core_vs_nc: delta min",
+      "recomputed": -0.4648,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "core_vs_nc: delta max",
+      "recomputed": -0.0977,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "core_vs_nc: meta delta (REML)",
+      "recomputed": -0.2754,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "core_vs_nc: meta p",
+      "recomputed": 3.46703529240636e-18,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "core_vs_nc: meta CI lo",
+      "recomputed": -0.3375,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "core_vs_nc: meta CI hi",
+      "recomputed": -0.2134,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "core_vs_nc: meta I2",
+      "recomputed": 77.0,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "core_vs_nc: sign test p",
+      "recomputed": 0.00048828125,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "core_vs_nc leave-s3-out: n",
+      "recomputed": "11",
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "core_vs_nc leave-s3-out: n delta>0",
+      "recomputed": "0",
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "core_vs_nc leave-s3-out: meta delta",
+      "recomputed": -0.2779,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "core_vs_nc leave-s3-out: meta p",
+      "recomputed": 1.05720175926909e-16,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "edge_vs_nc: n delta>0",
+      "recomputed": 2,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "edge_vs_nc: n delta<0",
+      "recomputed": 10,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "edge_vs_nc: sign test p",
+      "recomputed": 0.03857421875,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "edge_vs_nc: meta delta",
+      "recomputed": -0.1291,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "edge_vs_nc: meta p",
+      "recomputed": 0.000112140585326628,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "edge_vs_nc: meta I2",
+      "recomputed": 91.9,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "transitory_vs_nc: n delta>0",
+      "recomputed": 1,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "transitory_vs_nc: n delta<0",
+      "recomputed": 11,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "transitory_vs_nc: sign test p",
+      "recomputed": 0.00634765625,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "transitory_vs_nc: meta delta",
+      "recomputed": -0.1975,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "transitory_vs_nc: meta p",
+      "recomputed": 1.85395972152829e-06,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "transitory_vs_nc: meta I2",
+      "recomputed": 93.1,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "pathology SCC vs non-SCC: n delta>0",
+      "recomputed": 2,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "pathology SCC vs non-SCC: n delta<0",
+      "recomputed": 10,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "pathology: meta delta",
+      "recomputed": -0.1327,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "pathology: meta p",
+      "recomputed": 7.21626603037596e-06,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "pathology: meta CI lo",
+      "recomputed": -0.1907,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "pathology: meta CI hi",
+      "recomputed": -0.0747,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "pathology: meta I2",
+      "recomputed": 91.4,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "pathology: sign test p",
+      "recomputed": 0.03857421875,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "pathology leave-s3-out: n delta>0",
+      "recomputed": "2",
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "pathology leave-s3-out: meta delta",
+      "recomputed": -0.1313,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "pathology leave-s3-out: meta p",
+      "recomputed": 3.70196014769398e-05,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "s9: n SCC spots",
+      "recomputed": "2494",
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "s9: n non-SCC spots",
+      "recomputed": "831",
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "s10: n SCC spots",
+      "recomputed": "2132",
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "s10: n non-SCC spots",
+      "recomputed": "556",
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "Spearman: n samples",
+      "recomputed": 12,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "Spearman: n negative",
+      "recomputed": 12,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "Spearman: mean",
+      "recomputed": -0.2442,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "Spearman: min",
+      "recomputed": -0.4958,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "Spearman: max",
+      "recomputed": -0.0951,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "direction agreement: agree",
+      "recomputed": 5,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "direction agreement: total",
+      "recomputed": 48,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "direction agreement: pct",
+      "recomputed": 10.4,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "depth-adj core_vs_nc: n",
+      "recomputed": 12,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "depth-adj core_vs_nc: mean raw delta",
+      "recomputed": -0.2869,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "depth-adj core_vs_nc: mean adjusted delta",
+      "recomputed": 0.036504,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "depth-adj core_vs_nc: n adj delta>0",
+      "recomputed": 8,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "depth-adj core_vs_nc: t statistic",
+      "recomputed": 0.9329,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "depth-adj core_vs_nc: p (t-dist df=11, CORRECT)",
+      "recomputed": 0.370901,
+      "in_document": null,
+      "status": "DEFINITION",
+      "note": ""
+    },
+    {
+      "item": "depth-adj core_vs_nc: p (normal-approx, WRONG)",
+      "recomputed": 0.350877,
+      "in_document": null,
+      "status": "DEFINITION",
+      "note": ""
+    },
+    {
+      "item": "depth-adj edge_vs_nc: n",
+      "recomputed": 12,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "depth-adj edge_vs_nc: mean raw delta",
+      "recomputed": -0.1374,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "depth-adj edge_vs_nc: mean adjusted delta",
+      "recomputed": 0.095442,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "depth-adj edge_vs_nc: n adj delta>0",
+      "recomputed": 10,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "depth-adj edge_vs_nc: t statistic",
+      "recomputed": 3.1196,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "depth-adj edge_vs_nc: p (t-dist df=11, CORRECT)",
+      "recomputed": 0.009756,
+      "in_document": null,
+      "status": "DEFINITION",
+      "note": ""
+    },
+    {
+      "item": "depth-adj edge_vs_nc: p (normal-approx, WRONG)",
+      "recomputed": 0.001811,
+      "in_document": null,
+      "status": "DEFINITION",
+      "note": ""
+    },
+    {
+      "item": "depth-adj transitory_vs_nc: n",
+      "recomputed": 12,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "depth-adj transitory_vs_nc: mean raw delta",
+      "recomputed": -0.2054,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "depth-adj transitory_vs_nc: mean adjusted delta",
+      "recomputed": 0.088451,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "depth-adj transitory_vs_nc: n adj delta>0",
+      "recomputed": 9,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "depth-adj transitory_vs_nc: t statistic",
+      "recomputed": 3.524,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "depth-adj transitory_vs_nc: p (t-dist df=11, CORRECT)",
+      "recomputed": 0.004765,
+      "in_document": null,
+      "status": "DEFINITION",
+      "note": ""
+    },
+    {
+      "item": "depth-adj transitory_vs_nc: p (normal-approx, WRONG)",
+      "recomputed": 0.000425,
+      "in_document": null,
+      "status": "DEFINITION",
+      "note": ""
+    },
+    {
+      "item": "total in-tissue spots",
+      "recomputed": 26371,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "total annotated spots",
+      "recomputed": 24399,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "per-sample in-tissue spot counts",
+      "recomputed": {
+        "s1": 1185,
+        "s2": 1836,
+        "s3": 969,
+        "s4": 2046,
+        "s5": 1678,
+        "s6": 3311,
+        "s7": 2860,
+        "s8": 2475,
+        "s9": 3591,
+        "s10": 2731,
+        "s11": 2130,
+        "s12": 1559
+      },
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "s3 annotated spots",
+      "recomputed": 476,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "s3 in-tissue spots",
+      "recomputed": 969,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "n genes in detection table",
+      "recomputed": 67,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "n genes mean detection <5%",
+      "recomputed": 8,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "n genes mean detection <1%",
+      "recomputed": 2,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "CASP5 mean detection pct",
+      "recomputed": 0.49,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "GLS2 mean detection pct",
+      "recomputed": 0.6,
+      "in_document": null,
+      "status": "INFO",
+      "note": ""
+    },
+    {
+      "item": "HTML depth-adj p uses correct t value (0.3709)",
+      "recomputed": "0.3709",
+      "in_document": [
+        "0.3709",
+        "0.370"
+      ],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML depth-adj p: legacy WRONG value 0.351 absent (ignoring fix-notes)",
+      "recomputed": "absent",
+      "in_document": [],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "MD depth-adj p uses correct t value (0.3709)",
+      "recomputed": "0.3709",
+      "in_document": [
+        "0.3709",
+        "0.370"
+      ],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "MD depth-adj p: legacy WRONG value 0.351 absent (ignoring fix-notes)",
+      "recomputed": "absent",
+      "in_document": [],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML core meta p = correct 3.5 x 10^-18 (not 10^-9)",
+      "recomputed": "3.5 x 10-18",
+      "in_document": [
+        "3.5 x 10-18"
+      ],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML core meta p: legacy WRONG exponent 10^-9 absent (ignoring fix-notes)",
+      "recomputed": "absent",
+      "in_document": [],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "MD core meta p = correct 3.47e-18",
+      "recomputed": "3.47e-18",
+      "in_document": [
+        "3.47e-18"
+      ],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "MD core meta p: legacy WRONG 3.5e-9 absent (ignoring fix-notes)",
+      "recomputed": "absent",
+      "in_document": [],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML edge_vs_nc meta p present & correct",
+      "recomputed": "1.121e-04",
+      "in_document": [
+        "1.1 x 10-4"
+      ],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "MD edge_vs_nc meta p present & correct",
+      "recomputed": "1.121e-04",
+      "in_document": [
+        "1.1e-4"
+      ],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML transitory_vs_nc meta p present & correct",
+      "recomputed": "1.854e-06",
+      "in_document": [
+        "1.9 x 10-6"
+      ],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "MD transitory_vs_nc meta p present & correct",
+      "recomputed": "1.854e-06",
+      "in_document": [
+        "1.9e-6"
+      ],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML pathology meta p present & correct",
+      "recomputed": "7.216e-06",
+      "in_document": [
+        "7.2 x 10-6"
+      ],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "MD pathology meta p present & correct",
+      "recomputed": "7.216e-06",
+      "in_document": [
+        "7.2e-6"
+      ],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML core leave-s3 meta p present & correct",
+      "recomputed": "1.057e-16",
+      "in_document": [
+        "1.1 x 10-16",
+        "1.1e-16"
+      ],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "MD core leave-s3 meta p present & correct",
+      "recomputed": "1.057e-16",
+      "in_document": [
+        "1.1e-16"
+      ],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML pathology leave-s3 meta p present & correct",
+      "recomputed": "3.702e-05",
+      "in_document": [
+        "3.7 x 10-5"
+      ],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "MD pathology leave-s3 meta p present & correct",
+      "recomputed": "3.702e-05",
+      "in_document": [
+        "3.7e-5"
+      ],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML wording: '真实的空间聚集' removed (conservative wording applied)",
+      "recomputed": "absent",
+      "in_document": [],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML wording: 'reproducible positive spatial autocorrelation' present",
+      "recomputed": "present",
+      "in_document": [
+        "reproducible positive spatial autocorrelation"
+      ],
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML spot-check: 12/12 I>0",
+      "recomputed": "12/12",
+      "in_document": true,
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML spot-check: core delta range -0.465..-0.098",
+      "recomputed": "-0.465",
+      "in_document": true,
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML spot-check: I range 0.057-0.230",
+      "recomputed": "0.057",
+      "in_document": true,
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML spot-check: meta delta -0.275",
+      "recomputed": "-0.275",
+      "in_document": true,
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML spot-check: pathology meta -0.133",
+      "recomputed": "-0.133",
+      "in_document": true,
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML spot-check: meanZ agreement 10.4%",
+      "recomputed": "10.4",
+      "in_document": true,
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML spot-check: Spearman mean -0.244",
+      "recomputed": "-0.244",
+      "in_document": true,
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML spot-check: CASP5 0.49%",
+      "recomputed": "0.49",
+      "in_document": true,
+      "status": "MATCH",
+      "note": ""
+    },
+    {
+      "item": "HTML spot-check: GLS2 0.60%",
+      "recomputed": "0.60",
+      "in_document": true,
+      "status": "MATCH",
+      "note": ""
+    }
+  ],
+  "depth_stats": {
+    "core_vs_nc": {
+      "n": 12,
+      "mean_raw": -0.28693615334247186,
+      "mean_adj": 0.03650386211467611,
+      "sd": 0.13554976579872488,
+      "se": 0.03912984688624227,
+      "t": 0.9328904920277253,
+      "p_t": 0.3709011672393894,
+      "p_norm": 0.3508765119833903,
+      "n_pos": 8
+    },
+    "edge_vs_nc": {
+      "n": 12,
+      "mean_raw": -0.1374167144847339,
+      "mean_adj": 0.09544243550561034,
+      "sd": 0.10598096483823073,
+      "se": 0.03059406928916439,
+      "t": 3.119638469911341,
+      "p_t": 0.009756279639916913,
+      "p_norm": 0.0018107313116759727,
+      "n_pos": 10
+    },
+    "transitory_vs_nc": {
+      "n": 12,
+      "mean_raw": -0.20543387067162988,
+      "mean_adj": 0.08845053600263653,
+      "sd": 0.0869465913316701,
+      "se": 0.025099318955230057,
+      "t": 3.524021355336643,
+      "p_t": 0.004764648634294371,
+      "p_norm": 0.0004250499904672189,
+      "n_pos": 9
+    }
+  },
+  "html_pvalues": [
+    "0.0386",
+    "0.3709",
+    "1.1",
+    "3.5",
+    "3.7",
+    "4.88",
+    "7.2"
+  ],
+  "md_pvalues": [
+    "0.0386",
+    "0.3709",
+    "3.47e-18",
+    "3.7e-5",
+    "4.88e-4",
+    "7.2e-6"
+  ]
+}
