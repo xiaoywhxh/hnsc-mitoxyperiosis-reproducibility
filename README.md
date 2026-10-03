@@ -1,9 +1,11 @@
 # HNSC Mitoxyperiosis — Reproducibility Repository
 
-> **Manuscript**: Cross-Cohort Characterization of Mitoxyperiosis-Related Transcriptional Programs in Head and Neck Squamous Cell Carcinoma
+> **Manuscript**: Cross-Cohort and Cross-Resolution Characterization of Mitoxyperiosis-Related Transcriptional Programs in Head and Neck Squamous Cell Carcinoma
 > **Target journal**: Scientific Reports
-> **Status**: DATA LOCKED / SCIENTIFIC CONTENT FROZEN（2026-09-27）
+> **Status**: DATA LOCKED / SCIENTIFIC CONTENT FROZEN（2026-09-27；spatial module frozen 2026-10-02）
 > **Modules**: `01_cohort_qc` … `09_figures` cover the bulk/single-cell analyses; `10_spatial_validation` covers the orthogonal GSE208253 spatial validation (frozen 2026-10-02).
+> **Archived release**: `v1.1-scientific-reports` — **DOI: [10.5281/zenodo.23012854](https://doi.org/10.5281/zenodo.23012854)**（Zenodo concept DOI，始终解析到最新版本）
+> **Repository**: https://github.com/xiaoywhxh/hnsc-mitoxyperiosis-reproducibility
 
 **This repository contains the canonical analysis code underlying the locked manuscript results.** The repository was assembled without recomputing or modifying the frozen analyses; users may rerun the scripts after obtaining the required public datasets and configuring local data paths.
 
@@ -55,7 +57,8 @@ reproducibility_repository/
 ├── 06_single_cell/               # GSE103322 单细胞定位 + null 模型
 ├── 07_immune_purity/             # CIBERSORT / ESTIMATE purity / 药物敏感性
 ├── 08_specificity_null/          # 特异性 benchmark + matched null
-└── 09_figures/                   # 主图/补充图生成
+├── 09_figures/                   # 主图/补充图生成
+└── 10_spatial_validation/        # GSE208253 正交空间验证模块（冻结 2026-10-02）
 ```
 
 ## 4. Legacy vs Canonical Provenance（oral 分析）
@@ -81,6 +84,8 @@ reproducibility_repository/
 | GSE65858 | GEO（Illumina HT-12, n=270） | `data/GSE65858_expr.Rds`, `data/GSE65858_pdata.Rds` |
 | GSE27020 | GEO（GPL96, n=109 laryngeal, DFS） | `data/GSE27020_series_matrix.txt.gz` |
 | GSE103322 | GEO（scRNA-seq HNSCC atlas） | `data/GSE103322_HNSCC_all_data.txt.gz` |
+| GSE208253 | GEO（12 例 HPV-negative OSCC Visium 空间转录组） | 项目外 `D:/GSE208253_spatial/`（分析代码见 `10_spatial_validation/`） |
+| GSE36133 | GEO（CCLE Affymetrix HG-U133 Plus 2.0 表达面板，n=1156） | `data/DepMap/GSE36133_series_matrix.txt.gz` |
 | DepMap / CCLE | DepMap portal / CCLE | `data/DepMap/` |
 
 > ⚠️ **隐私声明**：本 repository 只含代码与基因集，**不含患者级数据**。TCGA/GEO 数据由第三方下载后置于本地 `data/`（未纳入本 repository）。基因集为公开基因符号，无隐私风险。
@@ -103,3 +108,4 @@ validated prognostic signature / robust biomarker / HPV-independent / site-speci
 ---
 
 _生成：2026-09-27 ｜ 由 Final Reviewer Simulation v1（通过）+ 四层 XLSX QC（2594 cells 零 mismatch）支撑_
+_更新：2026-10-03 — 标题同步为 Cross-Cohort and Cross-Resolution；补 `10_spatial_validation` 模块与 concept DOI；数据源表补 GSE208253 / GSE36133。_
